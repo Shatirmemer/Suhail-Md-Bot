@@ -82,8 +82,8 @@ module.exports = {
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
-  aitts_Voice_Id : process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "sk_a84768adf99ae0ac7b7f4dda5a531e945ec84edf2fb6f55e",
+  aitts_Voice_Id : process.env.AITTS_ID || "23",
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "sk_1a3501cd46f12ae9ed9b9e8645802f410f7733d655f77c7b",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
 
